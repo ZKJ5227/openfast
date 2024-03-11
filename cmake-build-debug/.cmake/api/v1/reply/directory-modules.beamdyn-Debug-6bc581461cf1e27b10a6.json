@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/beamdyn/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/beamdyn/libbeamdynlib.a"
+			],
+			"targetId" : "beamdynlib::@01a0a1b7cd37042ffdb3",
+			"targetIndex" : 39,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/beamdyn/beamdyn_driver.exe"
+			],
+			"targetId" : "beamdyn_driver::@01a0a1b7cd37042ffdb3",
+			"targetIndex" : 37,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/beamdyn",
+		"source" : "modules/beamdyn"
+	}
+}

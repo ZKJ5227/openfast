@@ -1,0 +1,681 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "modules/openfast-library/libopenfastlib.dll"
+		},
+		{
+			"path" : "modules/openfast-library/libopenfastlib.dll.a"
+		},
+		{
+			"path" : "modules/openfast-library/libopenfastlib.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"check_f2008_features",
+			"set_fast_gfortran",
+			"set_fast_fortran",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"modules/openfast-library/CMakeLists.txt",
+			"modules/nwtc-library/CMakeLists.txt",
+			"cmake/OpenfastFortranOptions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 6
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 77,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 71,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 142,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 81,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 67,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -DUNIT_TEST -ffree-line-length-none -cpp -fstack-reuse=none -fdefault-real-8 -fdefault-double-8 -fopenmp -g -fcheck=all,no-array-temps -pedantic -fbacktrace -finit-real=inf -finit-integer=9999. -J..\\..\\ftnmods -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "HAS_FORTRAN2008_FEATURES"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LibLoad"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "OPENFAST_DOUBLE_PRECISION"
+				},
+				{
+					"define" : "openfastlib_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/ftnmods"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Study/Graduation_Project/openfast/modules/openfast-library/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Study/Graduation_Project/openfast/modules/map/src/bstring"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Study/Graduation_Project/openfast/modules/map/src/cminpack"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Study/Graduation_Project/openfast/modules/map/src/lapack"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Study/Graduation_Project/openfast/modules/map/src/simclist"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/modules/map"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Study/Graduation_Project/openfast/modules/openfoam/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Study/Graduation_Project/openfast/modules/supercontroller/src"
+				}
+			],
+			"language" : "Fortran",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "nwtclibs::@ef786fe568a882132f26"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ifwlib::@ce95b19bed07d9ba94bf"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "versioninfolib::@5b8f253afab3412dacf4"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "aerodynlib::@fb9e8f2d9fa2c8f31e1a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "aerodyn14lib::@d824655691b6278d8ef9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "elastodynlib::@e76378b6d25487bd7011"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "servodynlib::@2426ce63ca1eada4835c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "hydrodynlib::@0e040f156da0032aad56"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "beamdynlib::@01a0a1b7cd37042ffdb3"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "subdynlib::@bcfb7068b3061f835594"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "orcaflexlib::@0c8074f512abd31443d9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "extptfm_mckflib::@97e397878c53d3d8cc7e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "moordynlib::@fc4c653ab2dd7a1f05ed"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "feamlib::@9c38a9bcd1fcc38522d9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "icedynlib::@0799315536457a896a28"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "icefloelib::@4d71d312637b1c0b28e9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "maplib::@7254ee984a8d27a33026"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "sctypeslib::@dd22d9c1db5120d294cc"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "foamtypeslib::@7cacd7bebd5afdc23786"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "foamfastlib::@7cacd7bebd5afdc23786"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "scfastlib::@dd22d9c1db5120d294cc"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "openfast_prelib::@501fbe2255e7e4ae5aaf"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "openfast_postlib::@501fbe2255e7e4ae5aaf"
+		}
+	],
+	"id" : "openfastlib::@501fbe2255e7e4ae5aaf",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "D:/Study/Graduation_Project/openfast/install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libgomp.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libgomp.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libgomp.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libopenfast_postlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\openfoam\\libfoamfastlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\supercontroller\\libscfastlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "libopenfast_prelib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\version\\libversioninfolib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\aerodyn14\\libaerodyn14lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\aerodyn\\libaerodynlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\beamdyn\\libbeamdynlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\elastodyn\\libelastodynlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\extptfm\\libextptfm_mckflib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\feamooring\\libfeamlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\openfoam\\libfoamtypeslib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\hydrodyn\\libhydrodynlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\icedyn\\libicedynlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\icefloe\\libicefloelib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\inflowwind\\libifwlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\map\\libmaplib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\moordyn\\libmoordynlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\orcaflex-interface\\liborcaflexlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\supercontroller\\libsctypeslib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\servodyn\\libservodynlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\subdyn\\libsubdynlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "..\\nwtc-library\\libnwtclibs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libgomp.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libgomp.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\liblapack.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libblas.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lgfortran",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lmingw32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lgcc_s",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lgcc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lmoldname",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lmingwex",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lkernel32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lquadmath",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-ladvapi32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lshell32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-luser32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lmingw32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lgcc_s",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lgcc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lmoldname",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lmingwex",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lkernel32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lquadmath",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-ladvapi32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lshell32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-luser32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgfortran",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lquadmath",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "openfastlib",
+	"nameOnDisk" : "libopenfastlib.dll",
+	"paths" : 
+	{
+		"build" : "modules/openfast-library",
+		"source" : "modules/openfast-library"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/openfast-library/src/FAST_Library.f90",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

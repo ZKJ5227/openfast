@@ -1,0 +1,2 @@
+C:\Software\msys64\mingw64\bin\ar.exe qc libscfastlib.a CMakeFiles/scfastlib.dir/src/SC_DataEx.f90.obj CMakeFiles/scfastlib.dir/src/SuperController_Types.f90.obj CMakeFiles/scfastlib.dir/src/SuperController.f90.obj
+C:\Software\msys64\mingw64\bin\ranlib.exe libscfastlib.a

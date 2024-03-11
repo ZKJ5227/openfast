@@ -1,0 +1,2 @@
+C:\Software\msys64\mingw64\bin\ar.exe qc libfeamlib.a CMakeFiles/feamlib.dir/src/FEAM.f90.obj CMakeFiles/feamlib.dir/src/FEAMooring_Types.f90.obj
+C:\Software\msys64\mingw64\bin\ranlib.exe libfeamlib.a

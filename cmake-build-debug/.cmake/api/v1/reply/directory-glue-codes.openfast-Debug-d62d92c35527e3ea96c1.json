@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"glue-codes/openfast/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"glue-codes/openfast/openfast.exe"
+			],
+			"targetId" : "openfast::@997ed0dc0b2b4f385824",
+			"targetIndex" : 62,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "glue-codes/openfast",
+		"source" : "glue-codes/openfast"
+	}
+}

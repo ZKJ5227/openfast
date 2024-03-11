@@ -1,0 +1,67 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/openfoam/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/openfoam/libfoamtypeslib.a"
+			],
+			"targetId" : "foamtypeslib::@7cacd7bebd5afdc23786",
+			"targetIndex" : 45,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/openfoam/libfoamfastlib.a"
+			],
+			"targetId" : "foamfastlib::@7cacd7bebd5afdc23786",
+			"targetIndex" : 44,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"modules/openfoam/src/OpenFOAM_Types.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/openfoam",
+		"source" : "modules/openfoam"
+	}
+}

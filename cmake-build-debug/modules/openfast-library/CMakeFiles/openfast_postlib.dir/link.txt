@@ -1,0 +1,2 @@
+C:\Software\msys64\mingw64\bin\ar.exe qc libopenfast_postlib.a CMakeFiles/openfast_postlib.dir/src/FAST_Lin.f90.obj CMakeFiles/openfast_postlib.dir/src/FAST_Mods.f90.obj CMakeFiles/openfast_postlib.dir/src/FAST_Subs.f90.obj CMakeFiles/openfast_postlib.dir/src/FAST_Solver.f90.obj
+C:\Software\msys64\mingw64\bin\ranlib.exe libopenfast_postlib.a

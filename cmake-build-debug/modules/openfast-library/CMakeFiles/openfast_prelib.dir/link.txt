@@ -1,0 +1,2 @@
+C:\Software\msys64\mingw64\bin\ar.exe qc libopenfast_prelib.a CMakeFiles/openfast_prelib.dir/src/FAST_Types.f90.obj
+C:\Software\msys64\mingw64\bin\ranlib.exe libopenfast_prelib.a

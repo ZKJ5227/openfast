@@ -1,0 +1,453 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "modules/inflowwind/inflowwind_driver.exe"
+		},
+		{
+			"path" : "modules/inflowwind/inflowwind_driver.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"check_f2008_features",
+			"set_fast_gfortran",
+			"set_fast_fortran",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"modules/inflowwind/CMakeLists.txt",
+			"modules/nwtc-library/CMakeLists.txt",
+			"cmake/OpenfastFortranOptions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 77,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 71,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 142,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 81,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 67,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -DUNIT_TEST -ffree-line-length-none -cpp -fstack-reuse=none -fdefault-real-8 -fdefault-double-8 -fopenmp -g -fcheck=all,no-array-temps -pedantic -fbacktrace -finit-real=inf -finit-integer=9999. -J..\\..\\ftnmods -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "HAS_FORTRAN2008_FEATURES"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "OPENFAST_DOUBLE_PRECISION"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/ftnmods"
+				}
+			],
+			"language" : "Fortran",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "nwtclibs::@ef786fe568a882132f26"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ifwlib::@ce95b19bed07d9ba94bf"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "versioninfolib::@5b8f253afab3412dacf4"
+		}
+	],
+	"id" : "inflowwind_driver::@ce95b19bed07d9ba94bf",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "D:/Study/Graduation_Project/openfast/install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DUNIT_TEST -ffree-line-length-none -cpp -fstack-reuse=none -fdefault-real-8 -fdefault-double-8 -fopenmp -g -fcheck=all,no-array-temps -pedantic -fbacktrace -finit-real=inf -finit-integer=9999.",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libgomp.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libgomp.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libgomp.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libifwlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\version\\libversioninfolib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\nwtc-library\\libnwtclibs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libgomp.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libgomp.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libmingwthrd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\liblapack.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "C:\\Software\\msys64\\mingw64\\lib\\libblas.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lgfortran",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lmingw32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lgcc_s",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lgcc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lmoldname",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lmingwex",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lkernel32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lquadmath",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-ladvapi32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lshell32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-luser32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lmingw32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lgcc_s",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lgcc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lmoldname",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lmingwex",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lkernel32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lquadmath",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-ladvapi32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lshell32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-luser32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "Fortran"
+	},
+	"name" : "inflowwind_driver",
+	"nameOnDisk" : "inflowwind_driver.exe",
+	"paths" : 
+	{
+		"build" : "modules/inflowwind",
+		"source" : "modules/inflowwind"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/inflowwind/src/InflowWind_Driver_Types.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/inflowwind/src/InflowWind_Driver_Subs.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/inflowwind/src/InflowWind_Driver.f90",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

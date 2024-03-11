@@ -1,0 +1,2 @@
+C:\Software\msys64\mingw64\bin\ar.exe qc libfoamtypeslib.a CMakeFiles/foamtypeslib.dir/src/OpenFOAM_Types.f90.obj
+C:\Software\msys64\mingw64\bin\ranlib.exe libfoamtypeslib.a

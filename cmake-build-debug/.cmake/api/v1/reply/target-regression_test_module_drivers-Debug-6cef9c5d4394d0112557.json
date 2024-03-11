@@ -1,0 +1,87 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"reg_tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 188,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "inflowwind_driver::@ce95b19bed07d9ba94bf"
+		},
+		{
+			"id" : "aerodyn_driver::@fb9e8f2d9fa2c8f31e1a"
+		},
+		{
+			"id" : "subdyn_driver::@bcfb7068b3061f835594"
+		},
+		{
+			"id" : "beamdyn_driver::@01a0a1b7cd37042ffdb3"
+		},
+		{
+			"id" : "hydrodyn_driver::@0e040f156da0032aad56"
+		},
+		{
+			"id" : "moordyn_driver::@fc4c653ab2dd7a1f05ed"
+		}
+	],
+	"id" : "regression_test_module_drivers::@5e6c1b9f4311efe5192b",
+	"name" : "regression_test_module_drivers",
+	"paths" : 
+	{
+		"build" : "reg_tests",
+		"source" : "reg_tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/reg_tests/CMakeFiles/regression_test_module_drivers",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/reg_tests/CMakeFiles/regression_test_module_drivers.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,490 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "modules/nwtc-library/libnwtclibs.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_definitions",
+			"check_f2008_features",
+			"set_fast_gfortran",
+			"set_fast_fortran",
+			"target_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"modules/nwtc-library/CMakeLists.txt",
+			"cmake/OpenfastFortranOptions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 139,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 77,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 142,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 146,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -DUNIT_TEST -ffree-line-length-none -cpp -fstack-reuse=none -fdefault-real-8 -fdefault-double-8 -fopenmp -g -fcheck=all,no-array-temps -pedantic -fbacktrace -finit-real=inf -finit-integer=9999. -J..\\..\\ftnmods -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "HAS_FORTRAN2008_FEATURES"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "OPENFAST_DOUBLE_PRECISION"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "USE_DLL_INTERFACE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/ftnmods"
+				}
+			],
+			"language" : "Fortran",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -DUNIT_TEST -ffree-line-length-none -cpp -fstack-reuse=none -fdefault-real-8 -fdefault-double-8 -fopenmp -g -fcheck=all,no-array-temps -pedantic -fbacktrace -finit-real=inf -finit-integer=9999. -J..\\..\\ftnmods -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-frecursive"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "HAS_FORTRAN2008_FEATURES"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "OPENFAST_DOUBLE_PRECISION"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "USE_DLL_INTERFACE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/ftnmods"
+				}
+			],
+			"language" : "Fortran",
+			"sourceIndexes" : 
+			[
+				22,
+				23,
+				24
+			]
+		}
+	],
+	"id" : "nwtclibs::@ef786fe568a882132f26",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "D:/Study/Graduation_Project/openfast/install"
+		}
+	},
+	"name" : "nwtclibs",
+	"nameOnDisk" : "libnwtclibs.a",
+	"paths" : 
+	{
+		"build" : "modules/nwtc-library",
+		"source" : "modules/nwtc-library"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/SysGnuWin.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NWTC_Base.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/SingPrec.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/ModMesh.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/ModMesh_Mapping.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/ModMesh_Types.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NWTC_IO.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NWTC_Library.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NWTC_Num.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NWTC_RandomNumber.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NWTC_Library_Types.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/VTK.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/YAML.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/JSON.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/ranlux/RANLUX.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/Polynomial/quartic.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/fftpack/fftpack4.1.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/scalapack/dlasrt2.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/scalapack/slasrt2.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/fftpack/NWTC_FFTPACK.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/lapack/NWTC_LAPACK.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/scalapack/NWTC_ScaLAPACK.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/NWTC_SLATEC.f90",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/dqk61.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/qk61.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/d1mach.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/r1mach.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/xercnt.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/xerhlt.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/xerprn.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/xersve.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/fdump.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/i1mach.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/j4save.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/xgetua.f",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/nwtc-library/src/NetLib/slatec/xermsg.f",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

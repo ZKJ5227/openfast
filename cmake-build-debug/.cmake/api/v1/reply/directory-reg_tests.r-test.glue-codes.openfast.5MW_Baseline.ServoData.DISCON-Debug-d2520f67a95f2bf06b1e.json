@@ -1,0 +1,58 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"reg_tests/r-test/glue-codes/openfast/5MW_Baseline/ServoData/DISCON/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/reg_tests/glue-codes/openfast/5MW_Baseline/ServoData",
+			"paths" : 
+			[
+				"D:/Study/Graduation_Project/openfast/reg_tests/r-test/glue-codes/openfast/5MW_Baseline/ServoData/DISCON/build/libDISCON.dll.a"
+			],
+			"targetId" : "DISCON::@d3a74e432c377a442c16",
+			"targetIndex" : 9,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/reg_tests/glue-codes/openfast/5MW_Baseline/ServoData",
+			"paths" : 
+			[
+				"D:/Study/Graduation_Project/openfast/reg_tests/r-test/glue-codes/openfast/5MW_Baseline/ServoData/DISCON/build/DISCON.dll"
+			],
+			"targetId" : "DISCON::@d3a74e432c377a442c16",
+			"targetIndex" : 9,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "D:/Study/Graduation_Project/openfast/reg_tests/r-test/glue-codes/openfast/5MW_Baseline/ServoData/DISCON/build",
+		"source" : "reg_tests/r-test/glue-codes/openfast/5MW_Baseline/ServoData/DISCON"
+	}
+}

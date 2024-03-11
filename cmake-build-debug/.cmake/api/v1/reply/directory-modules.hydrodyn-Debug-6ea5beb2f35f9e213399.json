@@ -1,0 +1,82 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/hydrodyn/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/hydrodyn/libhydrodynlib.a"
+			],
+			"targetId" : "hydrodynlib::@0e040f156da0032aad56",
+			"targetIndex" : 49,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/hydrodyn/hydrodyn_driver.exe"
+			],
+			"targetId" : "hydrodyn_driver::@0e040f156da0032aad56",
+			"targetIndex" : 48,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/hydrodyn/libhydrodyn_c_binding.dll.a"
+			],
+			"targetId" : "hydrodyn_c_binding::@0e040f156da0032aad56",
+			"targetIndex" : 47,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/hydrodyn/libhydrodyn_c_binding.dll"
+			],
+			"targetId" : "hydrodyn_c_binding::@0e040f156da0032aad56",
+			"targetIndex" : 47,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/hydrodyn",
+		"source" : "modules/hydrodyn"
+	}
+}

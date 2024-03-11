@@ -1,0 +1,2 @@
+C:\Software\msys64\mingw64\bin\ar.exe qc libaerodyn14lib.a CMakeFiles/aerodyn14lib.dir/src/AeroDyn14.f90.obj CMakeFiles/aerodyn14lib.dir/src/AeroSubs.f90.obj CMakeFiles/aerodyn14lib.dir/src/DWM.f90.obj CMakeFiles/aerodyn14lib.dir/src/DWM_Wake_Sub_ver2.f90.obj CMakeFiles/aerodyn14lib.dir/src/GenSubs.f90.obj CMakeFiles/aerodyn14lib.dir/src/AeroDyn14_Types.f90.obj CMakeFiles/aerodyn14lib.dir/src/DWM_Types.f90.obj
+C:\Software\msys64\mingw64\bin\ranlib.exe libaerodyn14lib.a

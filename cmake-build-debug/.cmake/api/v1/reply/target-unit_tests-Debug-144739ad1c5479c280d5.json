@@ -1,0 +1,84 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"unit_tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "beamdyn_utest::@6b8bf6501e18515a93c3"
+		},
+		{
+			"id" : "fvw_utest::@c0c1df4bb8a75a66bc02"
+		},
+		{
+			"id" : "nwtc_library_utest::@c94dd4792b7470fda86a"
+		},
+		{
+			"id" : "inflowwind_utest::@b90ab25ad6729786a337"
+		},
+		{
+			"id" : "versioninfo_utest::@8169dfc94da5786078d6"
+		}
+	],
+	"id" : "unit_tests::@2bb15649ce016d6c8322",
+	"name" : "unit_tests",
+	"paths" : 
+	{
+		"build" : "unit_tests",
+		"source" : "unit_tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/unit_tests/CMakeFiles/unit_tests",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/unit_tests/CMakeFiles/unit_tests.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

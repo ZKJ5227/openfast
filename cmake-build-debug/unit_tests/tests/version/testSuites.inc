@@ -1,0 +1,2 @@
+ADD_TEST_SUITE(VersionInfo_test_tools_suite)
+ADD_TEST_SUITE(test_VersionInfo_CheckArgs_suite)

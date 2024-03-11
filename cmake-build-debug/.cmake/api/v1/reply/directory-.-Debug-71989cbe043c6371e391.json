@@ -1,0 +1,254 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 230,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 236,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 257,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "D:/Study/Graduation_Project/openfast/install/include/openfast/",
+			"paths" : 
+			[
+				{
+					"from" : "cmake-build-debug/ftnmods",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OpenFAST",
+			"exportName" : "OpenFASTLibraries",
+			"exportTargets" : 
+			[
+				{
+					"id" : "nwtclibs::@ef786fe568a882132f26",
+					"index" : 61
+				},
+				{
+					"id" : "versioninfolib::@5b8f253afab3412dacf4",
+					"index" : 83
+				},
+				{
+					"id" : "ifwlib::@ce95b19bed07d9ba94bf",
+					"index" : 53
+				},
+				{
+					"id" : "inflowwind_driver::@ce95b19bed07d9ba94bf",
+					"index" : 54
+				},
+				{
+					"id" : "ifw_c_binding::@ce95b19bed07d9ba94bf",
+					"index" : 52
+				},
+				{
+					"id" : "aerodynlib::@fb9e8f2d9fa2c8f31e1a",
+					"index" : 35
+				},
+				{
+					"id" : "aerodyn_driver_subs::@fb9e8f2d9fa2c8f31e1a",
+					"index" : 33
+				},
+				{
+					"id" : "aerodyn_driver::@fb9e8f2d9fa2c8f31e1a",
+					"index" : 32
+				},
+				{
+					"id" : "unsteadyaero_driver::@fb9e8f2d9fa2c8f31e1a",
+					"index" : 81
+				},
+				{
+					"id" : "aerodyn_inflow_c_binding::@fb9e8f2d9fa2c8f31e1a",
+					"index" : 34
+				},
+				{
+					"id" : "aerodyn14lib::@d824655691b6278d8ef9",
+					"index" : 31
+				},
+				{
+					"id" : "servodynlib::@2426ce63ca1eada4835c",
+					"index" : 76
+				},
+				{
+					"id" : "servodyn_driver::@2426ce63ca1eada4835c",
+					"index" : 75
+				},
+				{
+					"id" : "elastodynlib::@e76378b6d25487bd7011",
+					"index" : 40
+				},
+				{
+					"id" : "beamdynlib::@01a0a1b7cd37042ffdb3",
+					"index" : 39
+				},
+				{
+					"id" : "beamdyn_driver::@01a0a1b7cd37042ffdb3",
+					"index" : 37
+				},
+				{
+					"id" : "subdynlib::@bcfb7068b3061f835594",
+					"index" : 78
+				},
+				{
+					"id" : "subdyn_driver::@bcfb7068b3061f835594",
+					"index" : 77
+				},
+				{
+					"id" : "hydrodynlib::@0e040f156da0032aad56",
+					"index" : 49
+				},
+				{
+					"id" : "hydrodyn_driver::@0e040f156da0032aad56",
+					"index" : 48
+				},
+				{
+					"id" : "hydrodyn_c_binding::@0e040f156da0032aad56",
+					"index" : 47
+				},
+				{
+					"id" : "orcaflexlib::@0c8074f512abd31443d9",
+					"index" : 67
+				},
+				{
+					"id" : "orca_driver::@0c8074f512abd31443d9",
+					"index" : 66
+				},
+				{
+					"id" : "extptfm_mckflib::@97e397878c53d3d8cc7e",
+					"index" : 41
+				},
+				{
+					"id" : "feamlib::@9c38a9bcd1fcc38522d9",
+					"index" : 43
+				},
+				{
+					"id" : "feam_driver::@9c38a9bcd1fcc38522d9",
+					"index" : 42
+				},
+				{
+					"id" : "moordynlib::@fc4c653ab2dd7a1f05ed",
+					"index" : 59
+				},
+				{
+					"id" : "moordyn_driver::@fc4c653ab2dd7a1f05ed",
+					"index" : 58
+				},
+				{
+					"id" : "moordyn_c_binding::@fc4c653ab2dd7a1f05ed",
+					"index" : 57
+				},
+				{
+					"id" : "icedynlib::@0799315536457a896a28",
+					"index" : 50
+				},
+				{
+					"id" : "icefloelib::@4d71d312637b1c0b28e9",
+					"index" : 51
+				},
+				{
+					"id" : "wdlib::@f3294651ffe206669e52",
+					"index" : 84
+				},
+				{
+					"id" : "awaelib::@36e924683af320e8800a",
+					"index" : 36
+				},
+				{
+					"id" : "maplib::@7254ee984a8d27a33026",
+					"index" : 56
+				},
+				{
+					"id" : "sctypeslib::@dd22d9c1db5120d294cc",
+					"index" : 74
+				},
+				{
+					"id" : "scfastlib::@dd22d9c1db5120d294cc",
+					"index" : 72
+				},
+				{
+					"id" : "sclib::@dd22d9c1db5120d294cc",
+					"index" : 73
+				},
+				{
+					"id" : "foamtypeslib::@7cacd7bebd5afdc23786",
+					"index" : 45
+				},
+				{
+					"id" : "foamfastlib::@7cacd7bebd5afdc23786",
+					"index" : 44
+				},
+				{
+					"id" : "openfast_postlib::@501fbe2255e7e4ae5aaf",
+					"index" : 63
+				},
+				{
+					"id" : "openfast_prelib::@501fbe2255e7e4ae5aaf",
+					"index" : 64
+				},
+				{
+					"id" : "openfastlib::@501fbe2255e7e4ae5aaf",
+					"index" : 65
+				},
+				{
+					"id" : "openfastlib_static::@501fbe2255e7e4ae5aaf",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/efe01ab538f735eeb24215cdc322d33c/OpenFASTLibraries.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OpenFAST",
+			"paths" : 
+			[
+				"cmake-build-debug/OpenFASTConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

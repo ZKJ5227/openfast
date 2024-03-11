@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/orcaflex-interface/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/orcaflex-interface/liborcaflexlib.a"
+			],
+			"targetId" : "orcaflexlib::@0c8074f512abd31443d9",
+			"targetIndex" : 67,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/orcaflex-interface/orca_driver.exe"
+			],
+			"targetId" : "orca_driver::@0c8074f512abd31443d9",
+			"targetIndex" : 66,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/orcaflex-interface",
+		"source" : "modules/orcaflex-interface"
+	}
+}

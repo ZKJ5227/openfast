@@ -1,0 +1,58 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"reg_tests/r-test/glue-codes/openfast/5MW_Baseline/ServoData/DISCON_ITI/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/reg_tests/glue-codes/openfast/5MW_Baseline/ServoData",
+			"paths" : 
+			[
+				"D:/Study/Graduation_Project/openfast/reg_tests/r-test/glue-codes/openfast/5MW_Baseline/ServoData/DISCON_ITI/build/libDISCON_ITIBarge.dll.a"
+			],
+			"targetId" : "DISCON_ITIBarge::@6cf667eb7b4a51f5aeb5",
+			"targetIndex" : 10,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/reg_tests/glue-codes/openfast/5MW_Baseline/ServoData",
+			"paths" : 
+			[
+				"D:/Study/Graduation_Project/openfast/reg_tests/r-test/glue-codes/openfast/5MW_Baseline/ServoData/DISCON_ITI/build/DISCON_ITIBarge.dll"
+			],
+			"targetId" : "DISCON_ITIBarge::@6cf667eb7b4a51f5aeb5",
+			"targetIndex" : 10,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "D:/Study/Graduation_Project/openfast/reg_tests/r-test/glue-codes/openfast/5MW_Baseline/ServoData/DISCON_ITI/build",
+		"source" : "reg_tests/r-test/glue-codes/openfast/5MW_Baseline/ServoData/DISCON_ITI"
+	}
+}

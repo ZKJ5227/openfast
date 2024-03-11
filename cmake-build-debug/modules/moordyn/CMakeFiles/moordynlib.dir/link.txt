@@ -1,0 +1,2 @@
+C:\Software\msys64\mingw64\bin\ar.exe qc libmoordynlib.a CMakeFiles/moordynlib.dir/src/MoorDyn.f90.obj CMakeFiles/moordynlib.dir/src/MoorDyn_Body.f90.obj CMakeFiles/moordynlib.dir/src/MoorDyn_IO.f90.obj CMakeFiles/moordynlib.dir/src/MoorDyn_Line.f90.obj CMakeFiles/moordynlib.dir/src/MoorDyn_Misc.f90.obj CMakeFiles/moordynlib.dir/src/MoorDyn_Point.f90.obj CMakeFiles/moordynlib.dir/src/MoorDyn_Rod.f90.obj CMakeFiles/moordynlib.dir/src/MoorDyn_Types.f90.obj
+C:\Software\msys64\mingw64\bin\ranlib.exe libmoordynlib.a

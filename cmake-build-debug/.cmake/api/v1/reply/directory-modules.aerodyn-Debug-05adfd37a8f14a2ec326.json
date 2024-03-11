@@ -1,0 +1,106 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/aerodyn/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/aerodyn/libaerodynlib.a"
+			],
+			"targetId" : "aerodynlib::@fb9e8f2d9fa2c8f31e1a",
+			"targetIndex" : 35,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/aerodyn/libaerodyn_driver_subs.a"
+			],
+			"targetId" : "aerodyn_driver_subs::@fb9e8f2d9fa2c8f31e1a",
+			"targetIndex" : 33,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/aerodyn/aerodyn_driver.exe"
+			],
+			"targetId" : "aerodyn_driver::@fb9e8f2d9fa2c8f31e1a",
+			"targetIndex" : 32,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/aerodyn/unsteadyaero_driver.exe"
+			],
+			"targetId" : "unsteadyaero_driver::@fb9e8f2d9fa2c8f31e1a",
+			"targetIndex" : 81,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/aerodyn/libaerodyn_inflow_c_binding.dll.a"
+			],
+			"targetId" : "aerodyn_inflow_c_binding::@fb9e8f2d9fa2c8f31e1a",
+			"targetIndex" : 34,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/aerodyn/libaerodyn_inflow_c_binding.dll"
+			],
+			"targetId" : "aerodyn_inflow_c_binding::@fb9e8f2d9fa2c8f31e1a",
+			"targetIndex" : 34,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/aerodyn",
+		"source" : "modules/aerodyn"
+	}
+}

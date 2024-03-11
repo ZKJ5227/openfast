@@ -1,0 +1,2 @@
+C:\Software\msys64\mingw64\bin\ar.exe qc liborcaflexlib.a CMakeFiles/orcaflexlib.dir/src/OrcaFlexInterface.f90.obj CMakeFiles/orcaflexlib.dir/src/OrcaFlexInterface_Types.f90.obj
+C:\Software\msys64\mingw64\bin\ranlib.exe liborcaflexlib.a

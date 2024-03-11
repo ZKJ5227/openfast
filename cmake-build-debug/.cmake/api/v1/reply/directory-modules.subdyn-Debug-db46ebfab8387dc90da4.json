@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/subdyn/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/subdyn/libsubdynlib.a"
+			],
+			"targetId" : "subdynlib::@bcfb7068b3061f835594",
+			"targetIndex" : 78,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/subdyn/subdyn_driver.exe"
+			],
+			"targetId" : "subdyn_driver::@bcfb7068b3061f835594",
+			"targetIndex" : 77,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/subdyn",
+		"source" : "modules/subdyn"
+	}
+}

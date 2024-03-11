@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/feamooring/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/feamooring/libfeamlib.a"
+			],
+			"targetId" : "feamlib::@9c38a9bcd1fcc38522d9",
+			"targetIndex" : 43,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/feamooring/feam_driver.exe"
+			],
+			"targetId" : "feam_driver::@9c38a9bcd1fcc38522d9",
+			"targetIndex" : 42,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/feamooring",
+		"source" : "modules/feamooring"
+	}
+}

@@ -1,0 +1,2 @@
+C:\Software\msys64\mingw64\bin\ar.exe qc libicedynlib.a CMakeFiles/icedynlib.dir/src/IceDyn.f90.obj CMakeFiles/icedynlib.dir/src/IceDyn_Types.f90.obj
+C:\Software\msys64\mingw64\bin\ranlib.exe libicedynlib.a

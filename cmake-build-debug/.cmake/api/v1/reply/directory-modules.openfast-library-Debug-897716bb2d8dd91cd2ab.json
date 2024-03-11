@@ -1,0 +1,92 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/openfast-library/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/openfast-library/libopenfast_postlib.a"
+			],
+			"targetId" : "openfast_postlib::@501fbe2255e7e4ae5aaf",
+			"targetIndex" : 63,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"modules/openfast-library/src/FAST_Library.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/openfast-library/libopenfast_prelib.a"
+			],
+			"targetId" : "openfast_prelib::@501fbe2255e7e4ae5aaf",
+			"targetIndex" : 64,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/openfast-library/libopenfastlib.dll.a"
+			],
+			"targetId" : "openfastlib::@501fbe2255e7e4ae5aaf",
+			"targetIndex" : 65,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/openfast-library/libopenfastlib.dll"
+			],
+			"targetId" : "openfastlib::@501fbe2255e7e4ae5aaf",
+			"targetIndex" : 65,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/openfast-library",
+		"source" : "modules/openfast-library"
+	}
+}

@@ -1,0 +1,3 @@
+ADD_TEST_SUITE(NWTC_Library_test_tools_suite)
+ADD_TEST_SUITE(test_NWTC_IO_FileInfo_suite)
+ADD_TEST_SUITE(test_NWTC_RandomNumber_suite)

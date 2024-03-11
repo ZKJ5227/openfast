@@ -1,0 +1,82 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/inflowwind/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/inflowwind/libifwlib.a"
+			],
+			"targetId" : "ifwlib::@ce95b19bed07d9ba94bf",
+			"targetIndex" : 53,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/inflowwind/inflowwind_driver.exe"
+			],
+			"targetId" : "inflowwind_driver::@ce95b19bed07d9ba94bf",
+			"targetIndex" : 54,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/inflowwind/libifw_c_binding.dll.a"
+			],
+			"targetId" : "ifw_c_binding::@ce95b19bed07d9ba94bf",
+			"targetIndex" : 52,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/inflowwind/libifw_c_binding.dll"
+			],
+			"targetId" : "ifw_c_binding::@ce95b19bed07d9ba94bf",
+			"targetIndex" : 52,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/inflowwind",
+		"source" : "modules/inflowwind"
+	}
+}

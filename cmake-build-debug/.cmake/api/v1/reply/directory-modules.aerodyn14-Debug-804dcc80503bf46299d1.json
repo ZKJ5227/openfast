@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/aerodyn14/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/aerodyn14/libaerodyn14lib.a"
+			],
+			"targetId" : "aerodyn14lib::@d824655691b6278d8ef9",
+			"targetIndex" : 31,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/aerodyn14",
+		"source" : "modules/aerodyn14"
+	}
+}

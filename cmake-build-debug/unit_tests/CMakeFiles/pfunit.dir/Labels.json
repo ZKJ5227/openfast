@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/unit_tests/CMakeFiles/pfunit"
+		},
+		{
+			"file" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/unit_tests/CMakeFiles/pfunit.rule"
+		},
+		{
+			"file" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/unit_tests/CMakeFiles/pfunit-complete.rule"
+		},
+		{
+			"file" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/unit_tests/pfunit-stamp/pfunit-build.rule"
+		},
+		{
+			"file" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/unit_tests/pfunit-stamp/pfunit-configure.rule"
+		},
+		{
+			"file" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/unit_tests/pfunit-stamp/pfunit-download.rule"
+		},
+		{
+			"file" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/unit_tests/pfunit-stamp/pfunit-install.rule"
+		},
+		{
+			"file" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/unit_tests/pfunit-stamp/pfunit-mkdir.rule"
+		},
+		{
+			"file" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/unit_tests/pfunit-stamp/pfunit-patch.rule"
+		},
+		{
+			"file" : "D:/Study/Graduation_Project/openfast/cmake-build-debug/unit_tests/pfunit-stamp/pfunit-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pfunit"
+		],
+		"name" : "pfunit"
+	}
+}

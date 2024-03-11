@@ -1,0 +1,2 @@
+C:\Software\msys64\mingw64\bin\ar.exe qc libversioninfolib.a CMakeFiles/versioninfolib.dir/src/VersionInfo.f90.obj
+C:\Software\msys64\mingw64\bin\ranlib.exe libversioninfolib.a

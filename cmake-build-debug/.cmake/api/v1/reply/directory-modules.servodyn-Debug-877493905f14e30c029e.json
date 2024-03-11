@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/servodyn/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/servodyn/libservodynlib.a"
+			],
+			"targetId" : "servodynlib::@2426ce63ca1eada4835c",
+			"targetIndex" : 76,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/servodyn/servodyn_driver.exe"
+			],
+			"targetId" : "servodyn_driver::@2426ce63ca1eada4835c",
+			"targetIndex" : 75,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/servodyn",
+		"source" : "modules/servodyn"
+	}
+}

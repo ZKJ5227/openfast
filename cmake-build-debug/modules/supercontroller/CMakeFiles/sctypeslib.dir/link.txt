@@ -1,0 +1,2 @@
+C:\Software\msys64\mingw64\bin\ar.exe qc libsctypeslib.a CMakeFiles/sctypeslib.dir/src/SCDataEx_Types.f90.obj
+C:\Software\msys64\mingw64\bin\ranlib.exe libsctypeslib.a

@@ -1,0 +1,82 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/moordyn/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/moordyn/libmoordynlib.a"
+			],
+			"targetId" : "moordynlib::@fc4c653ab2dd7a1f05ed",
+			"targetIndex" : 59,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/moordyn/moordyn_driver.exe"
+			],
+			"targetId" : "moordyn_driver::@fc4c653ab2dd7a1f05ed",
+			"targetIndex" : 58,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/moordyn/libmoordyn_c_binding.dll.a"
+			],
+			"targetId" : "moordyn_c_binding::@fc4c653ab2dd7a1f05ed",
+			"targetIndex" : 57,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"modules/moordyn/libmoordyn_c_binding.dll"
+			],
+			"targetId" : "moordyn_c_binding::@fc4c653ab2dd7a1f05ed",
+			"targetIndex" : 57,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/moordyn",
+		"source" : "modules/moordyn"
+	}
+}

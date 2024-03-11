@@ -1,0 +1,2 @@
+C:\Software\msys64\mingw64\bin\ar.exe qc libawaelib.a CMakeFiles/awaelib.dir/src/AWAE.f90.obj CMakeFiles/awaelib.dir/src/AWAE_IO.f90.obj CMakeFiles/awaelib.dir/src/AWAE_Types.f90.obj
+C:\Software\msys64\mingw64\bin\ranlib.exe libawaelib.a

@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"modules/version/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"modules/version/libversioninfolib.a"
+			],
+			"targetId" : "versioninfolib::@5b8f253afab3412dacf4",
+			"targetIndex" : 83,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/version",
+		"source" : "modules/version"
+	}
+}
